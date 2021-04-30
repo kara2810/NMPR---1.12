@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+license="GNU GPL V3.0"
+
+[[mods]]
+modId="nopoisonregen"
+version="${file.jarVersion}"
+displayName="No Poison with Regeneration"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/nmpr"
+authors="kara2810x"
+description='''
+This mod makes it so that the potion effects poison and regenration cancel each other out.
+'''
+[[dependencies.nopoisonregen]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.3,1.17)"
+ordering="NONE"
+side="BOTH"
